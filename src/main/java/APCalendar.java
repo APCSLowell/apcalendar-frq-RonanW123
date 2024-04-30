@@ -58,6 +58,6 @@ public class APCalendar
     /* to be implemented in part (b) */
     int startDay = firstDayOfYear(year);
     int totalDays = dayOfWeek(month, day, year);
-    return (startDay + totalDays)%7;
+    return (startDay + totalDays)%6;
   }
 }
